@@ -1,0 +1,55 @@
+{% extends "index.html" %}
+
+{% block title %}{{ page.title }} &middot; {{ config.title }}{% endblock title %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
+
+{% block ogtitle %}{{ page.title }}{% endblock ogtitle %}
+{% block ogdesc %}{{ page.description }}{% endblock ogdesc %}
+{% block ogurl %}{{ page.permalink | safe }}{% endblock ogurl%}
+{% block ogimage -%}
+  {%- if page.extra.image -%}{{ get_url(path=page.extra.image) | safe }}
+  {%- elif config.extra.ogimage -%}{{ get_url(path=config.extra.ogimage) | safe }}
+  {%- endif -%}
+{%- endblock ogimage %}
+
+
+{% block content %}
+<header role="banner">
+  <h2 style="margin-top:0;font-weight: normal;line-height: normal;">
+    <a href="{{ config.base_url | safe }}" title="Home">{{ config.title }}</a>
+    <br /><small>{{ config.description }}</small>
+  </h2>
+</header>
+<hr />
+
+{% if page.extra.lang == "en" %}
+<div style="overflow: auto;padding-block: 15px;">
+
+  <article>
+  <h1 id="title">{{ page.title }}</h1>
+
+  {{ page.content | safe }}
+
+  <br>
+  {% if page.date %}
+    <p style="text-align: right;line-height: 0%;margin-block-start: 3em;">{{ page.date | date(format="%B %d, %Y") }}</p>
+  {% endif %}
+
+</div>
+{% else %}
+<div style="overflow: auto;padding-block: 15px;">
+
+  <article class="tategaki" style="min-height:25em;height: 80%;min-block-size: 100%;">
+    <h1 id="title">{{ page.title }}</h1>
+
+    {{ page.content | safe }}
+
+    <br>
+    {% if page.date %}
+      <p style="text-align: right;line-height: 0%;margin-block-start: 3em;">{{ macros::format_chinese_date(year=page.year, month=page.month, day=page.day)}}</p>
+    {% endif %}
+  </article>
+
+</div>
+{% endif %}
+{% endblock content %}

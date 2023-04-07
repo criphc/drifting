@@ -1,0 +1,20 @@
+base_url = "https://blog.hicriphc.com"
+title = "网路飘游"
+description = "不只网路，不止飘游。"
+
+compile_sass = true
+generate_feed = true
+
+highlight_code = false
+highlight_theme = "gruvbox-light"
+
+[extra]
+
+seo = true
+author = "Criphc"
+ogimage = "blog.png"
+
+footer_links = [
+    {url = "$BASE_URL/about#title", name = "关于"},
+    {url = "$BASE_URL/atom.xml", name = "订阅"}
+]
