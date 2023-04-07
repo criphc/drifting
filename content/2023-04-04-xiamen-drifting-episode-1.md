@@ -31,7 +31,7 @@ image = "/assets/R0000439P.jpg"
 
 码头好像是没开门，或者是我没找对地方。  
 ![R0000532P.jpg](/assets/R0000532P.jpg)![R0000533P.jpg](/assets/R0000533P.jpg)![_DSF4827P.jpg](/assets/_DSF4827P.jpg)![_DSF4832P.jpg](/assets/_DSF4832P.jpg)  
-最近确实很喜欢高对比度黑白风格。都是Ricoh的错。
+最近确实很喜欢高对比度黑白风格。都是RICOH的错。
 
 ------
 
