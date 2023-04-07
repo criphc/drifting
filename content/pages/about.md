@@ -14,5 +14,5 @@ lang= "zh"
 
   
 <div style="overflow: auto;padding-block: 15px;">
-<p class="latin" style="text-align: right;line-height: 0%;margin-block-start: 3em;">Copyright &copy; Criphc, 2023.</p>
+<p class="latin" style="text-align: right;line-height: 0%;margin-block-start: 3em;">二〇二三年　四月七日　</p>
 </div>
