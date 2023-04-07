@@ -9,10 +9,6 @@ Hello World!
 
 This is just a sample post.
 
-Hello World!
-
-This is just a sample post.
-
 *Lorem ipsum* dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut `labore et dolore` magna aliqua. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. 社交群体并不只是社交群体。接受现实，这是一个*diamond-like***的主张**。网状和恶劣的名誉和利益。没有**任何**困难的发酵坏了野蛮的和平。优雅地将盈利性清单与缺少激情中的一些Elements相结合。这种风格在民主下没有意义，因为它完全将Idealism从政权中剔除。Non odio **euismod lacinia** at quis risus sed vulputate odio. Viverra accumsan in nisl nisi ~~scelerisque eu ultrices~~ vitae auctor. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae. In cursus turpis massa tincidunt. Id diam vel quam elementum pulvinar etiam.
 
 <p class="tc">就是摸摸的心我覺得前輩：來越為什麼的部分，器人認早上會想，很感謝隨著拜託要其哈哈，也太可衣服，就至學會候都子有。過了用所以我這麼久我剛就覺變化。然我然很想買完的都已，喜歡鳥有沒：是有是日的一這件事願，但現在可以事情就怎麼響，好可怕不行皮都你一堆，是看這麼的感覺中國。太好看就說狂，我真的一組天非常笑：的那個薦由於。麼覺得壞一篇那些短一堆，人家我笑出去，很討厭心麼這麼不臨我也是，真哈幹嘛會有大家。都會發違理一開始，變得很點你是不之前還⋯死亡明息直接喜歡有問題啊就，啊啊啊畫圖的特點種東西，哥是現也很每一是人都：糟糕樣就以去些什麼直想。</p>
