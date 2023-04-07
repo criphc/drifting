@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>{% block title %}{{ config.title }} &middot; {{ config.description }}{% endblock title %}</title>
+    <title>{% block title %}{{ config.title }}&#x30fb;{{ config.extra.description }}{% endblock title %}</title>
     <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
     <link rel="shortcut icon"  href="{{ get_url(path="favicon.ico") | safe }}" />
     
@@ -20,14 +20,6 @@
     <meta name="theme-color" content="#350d0d">
 
     <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml") | safe }}">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e3d329">
-    <meta name="msapplication-TileColor" content="#fcef62">
-    <meta name="theme-color" content="#fcef62">
 
     {% set data = load_data(path="public/style.css", format="plain") -%}
     <style>{{ data | safe }}</style>
@@ -95,7 +87,7 @@
           <hr />
 
           <header role="banner">
-            <h2 style="margin-top:0;margin-bottom:0;font-weight: normal;line-height: normal;">
+            <h2 style="margin-top:0;margin-bottom:0;line-height: normal;">
               <a href="{{ config.base_url | safe }}" title="Home" id="title">{{ config.title }}</a>
               <br />
               <small>{{ config.description }}</small>

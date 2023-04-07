@@ -13,6 +13,7 @@ highlight_theme = "gruvbox-light"
 seo = true
 author = "Criphc"
 ogimage = "blog.png"
+description = "不只网路，不止飘游"
 
 footer_links = [
     {url = "$BASE_URL/about#title", name = "关于"},
