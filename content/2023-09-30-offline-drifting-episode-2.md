@@ -1,0 +1,34 @@
++++
+title = "离线飘游·第二期：剪贴画"
+description = "今年六月到九月的作品编排。"
+[extra]
+lang = "zh"
+image = "/assets/2023-09-30/B3.webp"
++++
+
+趁着刚开学还很有精神，把这四个月攒下来的照片都整理了一遍，顺便水篇博文。
+
+![A1.webp](/assets/2023-09-30/A1.webp) ![A2.webp](/assets/2023-09-30/A2.webp) ![A3.webp](/assets/2023-09-30/A3.webp) ![A4.webp](/assets/2023-09-30/A4.webp)
+
+风格化玩儿腻之后开始琢磨 aspect ratio 了，这次就是按这个排序的。
+
+
+![B1.webp](/assets/2023-09-30/B1.webp) ![B2.webp](/assets/2023-09-30/B2.webp) ![B3.webp](/assets/2023-09-30/B3.webp)
+
+注意脚下，禁止通行。
+
+
+![C1.webp](/assets/2023-09-30/C1.webp) ![C2.webp](/assets/2023-09-30/C2.webp) ![C3.webp](/assets/2023-09-30/C3.webp)
+
+出于隐私保护的考量，部分照片可能有 redaction；基于同样的理由，我也不会告知这些图片的拍摄地点。
+
+
+![D1.webp](/assets/2023-09-30/D1.webp)
+
+我们注意到了上篇博文加载缓慢的问题，所以这次改用先进的 80% 质量 WebP 图片格式（[Smaller! Richer! Faster!](https://developers.google.com/speed/webp/)），请确保您使用[现代浏览器](https://caniuse.com/webp)访问我们的博客。
+
+![E1.webp](/assets/2023-09-30/E1.webp) ![E2.webp](/assets/2023-09-30/E1.webp) ![E3.webp](/assets/2023-09-30/E1.webp)
+
+------
+
+如果您想要获取这些图片的无水印或无压缩版本，请电邮至 <photorequest@hicriphc.com>。如果您想能早点儿看到我的新图片，我现在主要活动的社交媒体是 Telegram，详见[关于](/about)页。
