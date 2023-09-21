@@ -10,7 +10,7 @@ image = "/assets/2023-09-30/B3.webp"
 
 ![A1.webp](/assets/2023-09-30/A1.webp) ![A2.webp](/assets/2023-09-30/A2.webp) ![A3.webp](/assets/2023-09-30/A3.webp) ![A4.webp](/assets/2023-09-30/A4.webp)
 
-风格化玩儿腻之后开始琢磨 aspect ratio 了，这次就是按这个排序的。
+风格化玩儿腻之后开始琢磨 aspect ratio 了，这次就是按这个排的序。
 
 
 ![B1.webp](/assets/2023-09-30/B1.webp) ![B2.webp](/assets/2023-09-30/B2.webp) ![B3.webp](/assets/2023-09-30/B3.webp)
@@ -27,8 +27,8 @@ image = "/assets/2023-09-30/B3.webp"
 
 我们注意到了上篇博文加载缓慢的问题，所以这次改用先进的 80% 质量 WebP 图片格式（[Smaller! Richer! Faster!](https://developers.google.com/speed/webp/)），请确保您使用[现代浏览器](https://caniuse.com/webp)访问我们的博客。
 
-![E1.webp](/assets/2023-09-30/E1.webp) ![E2.webp](/assets/2023-09-30/E1.webp) ![E3.webp](/assets/2023-09-30/E1.webp)
+![E1.webp](/assets/2023-09-30/E1.webp) ![E2.webp](/assets/2023-09-30/E2.webp) ![E3.webp](/assets/2023-09-30/E3.webp)
 
 ------
 
-如果您想要获取这些图片的无水印或无压缩版本，请电邮至 <photorequest@hicriphc.com>。如果您想能早点儿看到我的新图片，我现在主要活动的社交媒体是 Telegram，详见[关于](/about)页。
+如果您想要获取这些图片的无水印或无压缩版本，请电邮至 <photorequest@criphc.com>。如果您想能早点儿看到我的新图片，我现在主要活动的社交媒体是 Telegram，详见[关于](/about)页。
