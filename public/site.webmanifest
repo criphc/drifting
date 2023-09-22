@@ -1,6 +1,6 @@
 {
-    "name": "\u7f51\u8def\u98d8\u6e38",
-    "short_name": "\u7f51\u8def\u98d8\u6e38",
+    "name": "Internet Drifting",
+    "short_name": "Internet Drifting",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#fcef62",
-    "background_color": "#fcef62",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
