@@ -5,7 +5,7 @@ path = "about"
 lang= "zh"
 +++
 
-这里是**网路飘游 Internet Drifting**。[这里](https://r2.hicriphc.com/pubkey.asc)是我的PGP公钥，指纹是：  
+这里是**网路飘游 Internet Drifting**。[这里](https://r2.hicriphc.com/pub.asc)是我的PGP公钥，指纹是：  
 58B5 664D 57E2 D2B8 1DBB  BAC9 9CEF 8711 E8E7 D760  
 <i@hicriphc.com> 是我的邮箱，发邮件最好加密。
 
