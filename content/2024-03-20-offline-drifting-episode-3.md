@@ -1,5 +1,5 @@
 +++
-title = "离线飘游 · 第三期：剪贴画"
+title = "离线飘游 · 第三期：新年快乐"
 description = "新年快乐。"
 [extra]
 lang = "zh"
@@ -14,7 +14,7 @@ image = "/assets/2024-03-20/A1.webp"
 
 ![海边亭子](/assets/2024-03-20/B1.webp) ![海上Cardinal Mark](/assets/2024-03-20/B2.webp)
 
-右（上）图这个东西叫 [Cardinal mark](https://en.wikipedia.org/wiki/Cardinal_mark)。
+右（上）图这个东西叫 [Cardinal mark](https://en.wikipedia.org/wiki/Cardinal_mark)，东方在图片里大概是左上方向。
 
 ![落潮时的河流入海口](/assets/2024-03-20/B3.webp) ![夕阳，高速路](/assets/2024-03-20/C1.webp) ![铁路](/assets/2024-03-20/C2.webp)
 
