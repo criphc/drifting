@@ -69,7 +69,7 @@
         <div class="tategaki" style="height: 90%;">
           
           {% set home = get_page(path="pages/home.md") %}
-          <div style="min-block-size: 17em;">{{ home.content | safe }}</div>
+          <div style="min-block-size: 25em;">{{ home.content | safe }}</div>
 
           <ul class="homepage-list">
             {% for post in section.pages | reverse %}
