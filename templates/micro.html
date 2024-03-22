@@ -1,0 +1,90 @@
+{% import "macros.html" as macros %}
+
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  {% block head %}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{% block title %}{{ config.title }}&#x30fb;{{ config.extra.description }}{% endblock title %}</title>
+    <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
+    <link rel="shortcut icon"  href="{{ get_url(path="favicon.ico") | safe }}" />
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path="apple-touch-icon.png") | safe }}>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path="favicon-32x32.png") | safe }}>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path="favicon-16x16.png") | safe }}>
+    <link rel="manifest" href="{{ get_url(path="site.webmanifest") | safe }}>
+    <link rel="mask-icon" href="{{ get_url(path="safari-pinned-tab.svg") | safe }} color="#ba2d2d">
+    <meta name="msapplication-TileColor" content="#fcef62">
+    <meta name="theme-color" content="#350d0d">
+
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml") | safe }}">
+
+    {% set data = load_data(path="public/style.css", format="plain") -%}
+    <style>{{ data | safe }}</style>
+
+    <link rel="stylesheet" href="https://unpkg.com/tategaki/assets/tategaki.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=block">
+
+    {% block extra_head %}
+    {% endblock extra_head %}
+
+
+  </head>
+  {% endblock head %}
+
+  <body> 
+    <main id="main" role="main" style="max-width: 35em;">
+
+      {% block header %}
+      <header role="banner">
+        <h3 style="margin-top:0;margin-bottom:0;line-height: 1.3em;">
+          <a href="{{ config.base_url | safe }}" title="Home" id="title">Criphc今天睡了吗？</a>
+          <br />
+          <small style="font-weight: normal;">祝您夜夜好眠。</small>
+        </h3>
+      </header>
+      <hr />
+      {% endblock header %}
+      
+      {% block content %}
+      <div style="overflow-x: auto; min-height:21em">
+        <div class="tcy" style="height: 90%;">
+          
+          <ul class="homepage-list">
+            {% for post in section.pages | reverse %}
+            <li>
+              {{ post.title }}
+              <small>{{ macros::format_chinese_date(year=post.year, month=post.month, day=post.day) }}</small>
+            </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+      </div>
+      
+      {% endblock content %}
+      <hr />
+      <footer role="contentinfo">
+        {% if config.extra.footer_links %}
+        <nav style="text-align:right;" role="navigation">
+          {% for item in config.extra.footer_links %}
+            <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}">{{ item.name }}</a>
+              <span>&#x30fb;</span>
+          {% endfor %}
+          &copy;Criphc<a rel="me" href="https://alive.bar/@criphc"></a>, 2023
+        </nav>
+        {% endif %}
+      </footer>
+
+      {% block footer %}
+      {% endblock footer %}
+
+    </main>
+    {% block after_main %}
+    {% endblock after_main %}
+    <script src="https://unpkg.com/tategaki/dist/tategaki.min.js"></script>
+  </body>
+</html>
+

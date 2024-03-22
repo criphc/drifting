@@ -25,8 +25,7 @@
     <style>{{ data | safe }}</style>
 
     <link rel="stylesheet" href="https://unpkg.com/tategaki/assets/tategaki.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&text=&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=block">
 
     {% block seo -%}
       <meta property="og:site_name" content="{% block ogsitename %}{{config.title}}{% endblock ogsitename %}">
@@ -61,15 +60,12 @@
   <body> 
     <main id="main" role="main">
 
-      {% block header %}
-      {% endblock header %}
-
       {% block content %}
-      <div style="overflow-x: auto;overflow-y: hidden;padding-block: 15px;min-height:21em;">
+      <div style="overflow-x: auto;overflow-y: hidden; min-height:21em;">
         <div class="tategaki" style="height: 90%;">
           
           {% set home = get_page(path="pages/home.md") %}
-          <div style="min-block-size: 25em;">{{ home.content | safe }}</div>
+          <div style="min-block-size: 26em;">{{ home.content | safe }}</div>
 
           <ul class="homepage-list">
             {% for post in section.pages | reverse %}
@@ -83,23 +79,24 @@
             </li>
             {% endfor %}
           </ul>
-
+          
+          {% block header %}
           <hr />
-
           <header role="banner">
-            <h2 style="margin-top:0;margin-bottom:0;line-height: normal;">
+            <h2 style="margin-top:0;margin-bottom:0;line-height: 1em;">
               <a href="{{ config.base_url | safe }}" title="Home" id="title">{{ config.title }}</a>
               <br />
-              <small>{{ config.description }}</small>
+              <small style="font-weight: normal;">{{ config.description }}</small>
             </h2>
           </header>
+          {% endblock header %}
           
-
-
         </div>
       </div>
       
-      {% endblock content %}
+    {% endblock content %}
+
+      {% block footer %}
       <hr />
       <footer role="contentinfo">
         {% if config.extra.footer_links %}
@@ -108,12 +105,10 @@
             <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}">{{ item.name }}</a>
               <span>&#x30fb;</span>
           {% endfor %}
-          &copy;Criphc<a rel="me" href="https://alive.bar/@criphc"></a>, 2023
+          &copy; Criphc<a rel="me" href="https://alive.bar/@criphc"></a>, 2023
         </nav>
         {% endif %}
       </footer>
-
-      {% block footer %}
       {% endblock footer %}
 
     </main>

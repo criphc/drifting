@@ -2,5 +2,12 @@
 {% block title %}404: Page not found{%endblock title %}
 
 {% block content %}
+<header role="banner">
+    <h2 style="margin-top:0;line-height: normal;">
+      <a href="{{ config.base_url | safe }}" title="Home">{{ config.title }}</a>
+      <br /><small>{{ config.description }}</small>
+    </h2>
+</header>
+<hr />
 <img style="-webkit-user-select:none; display:block; margin:auto; padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);" src="https://http.cat/404">
 {% endblock content %}
