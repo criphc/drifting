@@ -1,5 +1,5 @@
 +++
-title = "离线飘游 · 第二期：剪贴画"
+title = "离线飘游・第二期：剪贴画"
 description = "六月到九月的作品编排。"
 [extra]
 lang = "zh"

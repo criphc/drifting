@@ -1,5 +1,5 @@
 +++
-title = "离线飘游 · 第三期：新年快乐"
+title = "离线飘游・第三期：新年快乐"
 description = "拜个晚年。"
 [extra]
 lang = "zh"
