@@ -52,11 +52,11 @@
       <div style="overflow-x: auto; min-height:21em">
         <div class="tcy" style="height: 90%;">
           
-          <ul class="homepage-list">
+          <ul class="micro-list">
             {% for post in section.pages | reverse %}
             <li>
+              <time style="font-size:80%; color: #505050;" datetime="{{ post.date | date(format="%+") }}">{{ post.date | date(format="%m/%d/%Y") }}</time>
               {{ post.title }}
-              <time style="font-size:90%;" datetime="{{ post.date | date(format="%+") }}">{{ post.date | date(format="%m/%d/%Y") }}</time>
             </li>
             {% endfor %}
           </ul>
