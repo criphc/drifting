@@ -56,7 +56,7 @@
             {% for post in section.pages | reverse %}
             <li>
               <time style="font-size:80%; color: #505050;" datetime="{{ post.date | date(format="%+") }}">{{ post.date | date(format="%m/%d/%Y") }}</time>
-              {{ post.title }}
+              {{ post.description | safe }}
             </li>
             {% endfor %}
           </ul>
