@@ -1,3 +1,4 @@
 homepage
 public
 .DS_Store
+*.fish
