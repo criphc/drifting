@@ -1,6 +1,5 @@
 Copyright (c) 2023 Criphc
-ALL RIGHTS RESERVED UNLESS OTHERWISE SPECIFIED
-
+All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior permission.
 
 # Light Speed is released under MIT License
 
@@ -35,6 +34,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 
 # Seje2 is released under MIT License
 MIT License
