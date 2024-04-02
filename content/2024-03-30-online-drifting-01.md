@@ -2,7 +2,8 @@
 title = "在线飘游："
 description = ""
 [extra]
-lang = "zh"
+lang = "zh-cal"
+leap = 0
 +++
 
 

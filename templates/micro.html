@@ -56,7 +56,7 @@
             {% for post in section.pages | reverse %}
             <li>
               {{ post.title }}
-              <small>{{ macros::format_chinese_date(year=post.year, month=post.month, day=post.day) }}</small>
+              <time style="font-size:90%;" datetime="{{ post.date | date(format="%+") }}">{{ post.date | date(format="%m/%d/%Y") }}</time>
             </li>
             {% endfor %}
           </ul>

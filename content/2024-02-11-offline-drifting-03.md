@@ -2,7 +2,8 @@
 title = "离线飘游・第三期：新年快乐"
 description = "拜个晚年。"
 [extra]
-lang = "zh"
+lang = "zh-cal"
+leap = 0
 image = "/assets/2024-03-20/A1.webp"
 +++
 

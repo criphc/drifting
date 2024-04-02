@@ -71,10 +71,14 @@
             {% for post in section.pages | reverse %}
             <li>
               <a href="{{ post.permalink | safe }}#title">{{ post.title }}</a>
-              {% if post.extra.lang == "en" %}
-                <time style="font-size:90%;" datetime="{{ post.date | date(format="%+") }}">{{ post.date | date(format="%B %d, %Y") }}</time>
-              {% else %}
+              {% if post.extra.lang == "zh" %}
                 <p style="font-size:90%;">{{ macros::format_chinese_date(year=post.year, month=post.month, day=post.day) }}</p>
+               {% else %}
+                {% if post.extra.lang == "zh-cal" %}
+                 <p style="font-size:90%;">{{ macros::format_chinese_calendar_date(year=post.year, month=post.month, day=post.day, leap=post.extra.leap) }}</p>
+                {% else %}
+                <time style="font-size:90%;" datetime="{{ post.date | date(format="%+") }}">{{ post.date | date(format="%m/%d/%Y") }}</time>
+                {% endif %}
               {% endif %}
             </li>
             {% endfor %}

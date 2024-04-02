@@ -2,7 +2,8 @@
 title = "离线飘游・第二期：剪贴画"
 description = "六月到九月的作品编排。"
 [extra]
-lang = "zh"
+lang = "zh-cal"
+leap = 0
 image = "/assets/2023-09-30/B3.webp"
 +++
 

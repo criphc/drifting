@@ -2,7 +2,8 @@
 title = "离线飘游・第一期：鹭岛半日游"
 description = "第一码头、海湾公园。"
 [extra]
-lang = "zh"
+lang = "zh-cal"
+leap = 1
 image = "/assets/2023-04-04/R0000439P.webp"
 +++
 
