@@ -19,6 +19,5 @@ description = "不只网路，不止飘游"
 
 footer_links = [
     {url = "$BASE_URL/about#title", name = "关于"},
-    {url = "$BASE_URL/micro", name = "睡了吗"},
     {url = "$BASE_URL/atom.xml", name = "订阅"}
 ]

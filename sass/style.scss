@@ -11,7 +11,22 @@ strong {
 code {
 	font-size: 14px;
 }
-
+h1 {
+	font-size:1.5em;
+}
+h2 {
+	margin-block-start: 2em;
+	margin-block-end: 20px;
+	font-size:1.2em;
+}
+h3 {
+	margin-block: 1em;
+	font-size:1em;
+}
+h4 {
+	margin-block: 1em;
+	font-size:1em;
+}
 .tc {
 	font-family: 'Noto Serif TC', serif;
 }
