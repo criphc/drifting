@@ -21,3 +21,7 @@ footer_links = [
     {url = "$BASE_URL/about#title", name = "关于"},
     {url = "$BASE_URL/atom.xml", name = "订阅"}
 ]
+footer_links_micro = [
+    {url = "$BASE_URL/", name = "返回主页"},
+    {url = "$BASE_URL/micro/atom.xml", name = "订阅本页"}
+]
