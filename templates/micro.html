@@ -69,7 +69,7 @@
       <footer role="contentinfo">
         {% if config.extra.footer_links %}
         <nav style="text-align:right;" role="navigation">
-          {% for item in config.extra.footer_links %}
+          {% for item in config.extra.footer_links_micro %}
             <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}">{{ item.name }}</a>
               <span>&#x30fb;</span>
           {% endfor %}
