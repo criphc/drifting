@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>{% block title %}{{ config.title }}&#x30fb;{{ config.extra.description }}{% endblock title %}</title>
+    <title>{% block title %}{{ config.extra.title_micro }}{% endblock title %}</title>
     <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
     <link rel="shortcut icon"  href="{{ get_url(path="favicon.ico") | safe }}" />
     
@@ -40,9 +40,9 @@
       {% block header %}
       <header role="banner">
         <h3 style="margin-top:0;margin-bottom:0;line-height: 1.3em;">
-          <a href="{{ config.base_url | safe }}/micro" title="Home" id="title">Criphc今天睡了吗？</a>
+          <a href="{{ config.base_url | safe }}/micro" title="Home" id="title">{{ config.extra.title_micro }}</a>
           <br />
-          <small style="font-weight: normal;">祝您夜夜好眠。</small>
+          <small style="font-weight: normal;">{{ config.extra.description_micro }}</small>
         </h3>
       </header>
       <hr />

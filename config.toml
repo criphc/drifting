@@ -12,6 +12,9 @@ highlight_theme = "gruvbox-light"
 
 [extra]
 
+title_micro = "Criphc今天睡了吗？"
+description_micro = "祝您夜夜好眠。"
+
 seo = true
 author = "Criphc"
 ogimage = "blog.png"
