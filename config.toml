@@ -2,13 +2,9 @@ base_url = "https://blog.criphc.com"
 title = "网路飘游"
 description = "不只网路，不止飘游。"
 
-
-
 compile_sass = true
-generate_feed = true
+generate_feeds = true
 
-highlight_code = false
-highlight_theme = "gruvbox-light"
 
 [extra]
 

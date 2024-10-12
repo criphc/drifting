@@ -47,7 +47,15 @@
 
     <br>
     {% if page.date %}
-      <p style="text-align: right;line-height: 0%;margin-block-start: 3em;">{{ macros::format_chinese_date(year=page.year, month=page.month, day=page.day)}}</p>
+      {% if page.extra.lang == "zh" %}
+        <p style="text-align: right;line-height: 0%;margin-block-start: 3em;">{{ macros::format_chinese_date(year=page.year, month=page.month, day=page.day) }}</p>
+        {% else %}
+        {% if page.extra.lang == "zh-cal" %}
+          <p style="text-align: right;line-height: 0%;margin-block-start: 3em;">{{ macros::format_chinese_calendar_date(year=page.year, month=page.month, day=page.day, leap=page.extra.leap) }}</p>
+        {% else %}
+        <time style="text-align: right;line-height: 0%;margin-block-start: 3em;" datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%m/%d/%Y") }}</time>
+        {% endif %}
+      {% endif %}
     {% endif %}
   </article>
 

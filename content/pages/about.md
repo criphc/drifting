@@ -3,8 +3,9 @@ title = "关于"
 path = "about"
 [extra]
 lang= "zh"
+post.extra.lang = "zh"
 +++
-这里是《网路飘游》博客。这里还有[《Criphc今天睡了吗？》](https://blog.criphc.com/micro)的微博客。
+这里是《网路飘游》博客。
 
 ## 我是谁
 请看[公钥](https://r2.hicriphc.com/pub.asc)和[电子名片](https://r2.hicriphc.com/criphc.vcf)。
@@ -12,9 +13,7 @@ lang= "zh"
 ## 我在哪儿
 想要联系我请首选邮件：<i@criphc.com>。
 
-我平时使用最多的是[Telegram](https://t.me/criphc)。在那上面我有两个频道，一个是正儿八经的[个人频道](https://criphc.com/tg)，另一个是转发内容为主的[私有频道](https://criphc.com/tgp)。
-
-我偶尔也会上[Mastodon](https://criphc.com/mstd)和[Discord](https://criphc.com/dc)。
+我平时也在用[Mastodon](https://alive.bar/@criphc)和[Telegram](https://t.me/criphc)，偶尔也会上[Discord](https://criphc.com/dc)。
 
 ## 如何订阅
 我们推荐您使用[泛用性RSS客户端](https://blog.yitianshijie.net/2019/06/06/time-to-double-down-on-open-podcast-clients/)订阅本博客。在macOS和iOS上我们推荐[NetNewsWire](https://netnewswire.com/)和[Reeder](https://reederapp.com/)。

@@ -1,6 +1,7 @@
 +++
 title = "离线飘游・第二期：剪贴画"
 description = "六月到九月的作品编排。"
+date = 2023-08-09
 [extra]
 lang = "zh-cal"
 leap = 0
@@ -34,4 +35,4 @@ image = "/assets/2023-09-30/B3.webp"
 
 ------
 
-如果您想要获取这些图片的无水印或无压缩版本，请电邮至<photorequest@criphc.com>。如果您想能早点儿看到我的新图片，我现在主要活动的社交媒体是Telegram，详见[关于](/about)页。
+如果您想要获取这些图片的无水印或无压缩版本，请电邮至<photorequest@criphc.com>。~~如果您想能早点儿看到我的新图片，我现在主要活动的社交媒体是Telegram~~（编辑：现在不是了），详见[关于](/about)页。

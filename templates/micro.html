@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>{% block title %}{{ config.extra.title_micro }}{% endblock title %}</title>
-    <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
+    <meta name="description" content="{% block description %}{{ config.extra.description_micro }}{% endblock description %}" />
     <link rel="shortcut icon"  href="{{ get_url(path="favicon.ico") | safe }}" />
     
     <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path="apple-touch-icon.png") | safe }}>
