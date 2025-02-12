@@ -2,7 +2,7 @@ html,
 body {
 	background: #fffaf7;
 	color: #2d2d2d;
-	font: 20px/1.5 'Source Serif Pro', 'Noto Serif SC', Georgia, 'Times New Roman', serif;
+	font: 20px/1.5 'IBM Plex Serif','Source Serif Pro', 'Noto Serif SC',  'Times New Roman', serif;
 	text-underline-offset: 3px;
 }
 strong {
@@ -99,6 +99,15 @@ blockquote {
 }
 @media (prefers-color-scheme: dark) {
     @import "dark";
+}
+
+.article-en img {
+	max-width: 95%;
+	min-height: 0;
+}
+
+.article-en {
+	font-size: 18px;
 }
 
 /* Tategaki */
