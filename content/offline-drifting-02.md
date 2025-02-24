@@ -7,6 +7,7 @@ lang = "zh-cal"
 leap = 0
 image = "/assets/2023-09-30/B3.webp"
 +++
+<h1 style="margin-top: 0;" id="title">离线飘游・第二期：剪贴画</h1>
 
 趁着刚开学还很有精神，把这四个月攒下来的照片都整理了一遍，顺便水篇博文。
 

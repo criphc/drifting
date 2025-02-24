@@ -23,10 +23,9 @@
 <hr />
 
 {% if page.extra.lang == "en" %}
-<div style="padding-block: 15px;">
+<div style="padding-block: 15px; justify-content: center; display: flex;">
 
   <article class="article-en">
-  <h1 id="title">{{ page.title }}</h1>
 
   {{ page.content | safe }}
 
@@ -41,7 +40,6 @@
 <div style="overflow: auto;padding-block: 15px;">
 
   <article class="tategaki" style="min-height:25em;height: 80%;min-block-size: 100%;">
-    <h1 id="title">{{ page.title }}</h1>
 
     {{ page.content | safe }}
 
